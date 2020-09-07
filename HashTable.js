@@ -35,7 +35,7 @@ function isKeyPairValueExistInHashTable(table, keyParam, valueParam) {
 }
 
 function isValueValid(pair) {
-  return pair === null || pair === undefined;
+  return pair !== null && pair !== undefined;
 }
 
 function isKeyExistInHashTable(table, keyParam) {
